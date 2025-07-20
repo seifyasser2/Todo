@@ -1,3 +1,7 @@
+body {
+  font-family: cairo !important;
+  background: #1E1E2F;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,41 @@
     transform: rotate(360deg);
   }
 }
+.iconButton {
+  transition: all 0.2s !important;
+}
+.iconButton:hover {
+  background: rgb(211, 206, 201) !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.todoCard {
+  transition: all 0.2s !important;
+}
+.todoCard:hover {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+/* Costm fonts  */
+/* @font-face {
+  font-family: Cairo;
+  src: url("/public/Fonts/Cairo-Light.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: Cairo;
+  src: url("/public/Fonts/Cairo-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Cairo;
+  src: url("/public/Fonts/Cairo-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Cairo;
+  src: url("/public/Fonts/Cairo-Black.ttf");
+  font-weight: 900;
+} */
+/* Costm fonts  */
